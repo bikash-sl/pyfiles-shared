@@ -19,3 +19,5 @@ def palindrome(string):
 if __name__ == "__main__":
     usr_word = input("Enter the word or sentence to check Palindrome:\n")
     print(palindrome(usr_word))
+
+    input("Press Enter to exit ..... ")
