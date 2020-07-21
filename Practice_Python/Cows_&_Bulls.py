@@ -28,7 +28,7 @@ import random
 
 
 def cowbull(num, guess):
-    """The function take two parameters a number and a guessed number
+    """The function takes two parameters a number and a guessed number
     and compare to return values (cows, bulls)."""
 
     # convert digits in the number into list
@@ -48,7 +48,7 @@ if __name__ == "__main__":
 
     print("\t\tWelcome to the Cows and Bulls Game!\n")
 
-    num_gen = str(random.randint(1000, 10000))
+    num_gen = str(random.randint(1000, 9999))
     cow_total = 0
     bull_total = 0
     count = 0

@@ -15,7 +15,7 @@ Extras:
 import random
 
 while True:
-    gen_num = random.randint(1, 10)
+    gen_num = random.randint(1, 9)
     attempts = 0
     print("\nThere is a hidden number in between 1 to 9.")
 
