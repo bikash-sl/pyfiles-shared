@@ -61,3 +61,5 @@ if __name__ == "__main__":
     elif not search_result:
         print(f"Boolean value is {search_result}.")
         print("Your item is not in the list.")
+
+    input("Press Enter to exit ... ... ... ")
