@@ -46,9 +46,15 @@ def cowbull(num, guess):
 
 if __name__ == "__main__":
 
-    print("\t\tWelcome to the Cows and Bulls Game!\n")
+    # print("\t\tWelcome to the Cows and Bulls Game!\n")
+    title = "Welcome to the Cows and Bulls Game"
+
+    print(4*"\t", len(title)*"*", "\n",
+          4*"\t", title, "\n",
+          4*"\t", len(title)*"*")
 
     num_gen = str(random.randint(1000, 9999))
+    print("your-no. is - ", num_gen)
     cow_total = 0
     bull_total = 0
     count = 0
@@ -69,7 +75,7 @@ if __name__ == "__main__":
         cow_total += cows
         bull_total += bulls
         print(f"{cows} Cow(s), {bulls} Bull(s).\n")
-        if guess_num == num_gen:
+        if cows == len(num_gen):
             print(f"You guessed in {count} attempt(s).")
             print(f"Total: {cow_total} Cow(s), {bull_total} Bull(s).")
             input("Press Enter to exit ..... ")
